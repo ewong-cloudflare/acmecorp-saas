@@ -62,7 +62,7 @@ export default function ComingSoonPage() {
         <div className="max-w-2xl rounded-lg bg-black/30 p-8 backdrop-blur-sm">
           <h1 className="mb-6 text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">Coming Soon!</h1>
           <p className="mb-8 text-lg text-white/80">
-            We're working hard to bring you an amazing new experience. Please check back later.
+            We&apos;re working hard to bring you an amazing new experience. Please check back later.
           </p>
         </div>
       </main>

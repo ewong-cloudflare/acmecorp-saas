@@ -41,7 +41,7 @@ export default function LoginForm() {
       }
     } catch (error) {
       toast.error("Authentication Error", {
-        description: "Failed to authenticate. Please try again.",
+        description: `Failed to authenticate due to: ${error}. Please try again.`,
       })
     } finally {
       setIsLoading(false)
