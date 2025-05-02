@@ -1,0 +1,20 @@
+#:schema node_modules/wrangler/config-schema.json
+
+name = "acmecorp-saas"
+compatibility_date = "2025-03-17"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+# top level environment
+[vars]
+"NODE_VERSION" = "22.14.0"
+
+[observability]
+enabled = true
+
+## Env: Preview
+[env.preview.vars]
+"NODE_VERSION" = "22.14.0"
+
+[env.production.vars]
+NODE_VERSION = "22.14.0"
